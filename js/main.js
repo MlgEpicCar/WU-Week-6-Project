@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (matchedImage) {
             resultImage.src = "/images/" + matchedImage + ".png";
         } else {
-            resultImage.src = "/images/" + notFoundImage + ".png";
+            resultImage.src = "https://mlgepiccar.github.io/WU-Week-6-Project/images/" + notFoundImage + ".png";
         }
     });
 });
