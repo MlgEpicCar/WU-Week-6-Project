@@ -28,12 +28,12 @@ document.addEventListener("DOMContentLoaded", function() {
         const matchedImage = images.find(image => image.toLowerCase().startsWith(inputValue));
         
         if (inputValue === "") {
-            resultImage.src = "/images/" + notFoundImage + ".png";
+            resultImage.src = "https://mlgepiccar.github.io/WU-Week-6-Project/images/" + notFoundImage + ".png";
             return; 
         }
 
         if (matchedImage) {
-            resultImage.src = "/images/" + matchedImage + ".png";
+            resultImage.src = "https://mlgepiccar.github.io/WU-Week-6-Project/images/" + matchedImage + ".png";
         } else {
             resultImage.src = "https://mlgepiccar.github.io/WU-Week-6-Project/images/" + notFoundImage + ".png";
         }
